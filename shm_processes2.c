@@ -7,6 +7,9 @@
 #include <sys/wait.h>
 #include <time.h>
 
+// Nicholas Wayoe
+// @02903830
+
 int genRandonNumber(int lower, int upper)
 {
     return ((random() % (upper - lower)) + lower);
